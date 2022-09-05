@@ -81,7 +81,7 @@ const ContainerTvShow = () => {
   
     return (
       <Container className="my-5 overflow-hidden" style={{backgroundColor: "black"}}>
-        <h3 className="text-start text-white fw-bold mb-3">TV Shows</h3>
+        <h3 className="text-start text-white fw-bold mb-3">TV Series</h3>
         <Row>
           {movieLists.map((movie, index) => (
             <Col md={2} key={index}>
